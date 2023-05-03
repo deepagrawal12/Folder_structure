@@ -1,0 +1,21 @@
+<orange-header id="orangeHeader" *ngIf="langauge === 'nl'" source="selfcare" env="dev" lang="nl"></orange-header>
+<orange-header id="orangeHeader" *ngIf="langauge === 'en'" source="selfcare" env="dev" lang="en"></orange-header>
+<orange-header id="orangeHeader" *ngIf="langauge === 'fr'" source="selfcare" env="dev" lang="fr"></orange-header>
+
+<div class=" offerSection">
+  <div class="container">
+    <div class="col-md-12 padding0">
+      <div class="col-md-8 line_height padding0">
+        <div class="font_weight_bold font_size_20 orange">
+          {{'SimInformation.header1' | translate}}
+             
+        </div>
+        <div class="font_size_40 color_white cust_name">
+          
+          {{'SimInformation.header2' | translate}}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

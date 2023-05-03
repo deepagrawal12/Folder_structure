@@ -1,0 +1,145 @@
+<div class="container">
+    <div class="infoList">
+        <div class="row">
+            <ul class="custom-counter font_size_16">
+                <li class="list_count listinfo"> {{'SimInformation.listPoint1' | translate}}</li>
+                <li class="list_count listinfo">{{'SimInformation.listPoint2' | translate}}</li>
+                <li class="list_count listinfo">{{'SimInformation.listPoint3' | translate}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="simmform" id="simForm">
+        <div class="row">
+            <div class="col-md-12 col-12">
+                <div class="font_size_20 font_weight_bold col-md-12 col-12">
+                    <p class="col-md-12 col-12 borderBtm">{{'SimInformation.mainTitle' | translate}}</p>
+                </div>
+            </div>
+        </div>
+
+        <form [formGroup]="simActivationForm" (ngSubmit)="onSubmit()" id="simActivationForm">
+            <div class="col-md-12 col-sm-12 col-12">
+                <div class="row simDetails">
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-12 form-group">
+                        <label class="font_size_1614 font_weight_bold">{{'SimInformation.simNo' | translate}}</label>
+                        <input type="text" formControlName="simNumber" appSimNumber class="form-control simNumber"
+                            minlength="13" maxlength="16" placeholder="0242 0529 5028 0" required />
+                        <div *ngIf="simActivationForm.get('simNumber').invalid && simActivationForm.get('simNumber').touched"
+                            class="error alert-dismissible fade show error_msg" role="alert">
+                            {{'SimInformation.simNoError' | translate}}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-12 form-group">
+                        <label class="font_size_1614 font_weight_bold">{{'SimInformation.email' | translate}}</label>
+                        <input type="text" formControlName="emailAddress" class="form-control emailAddress" placeholder="john.doe@orange.com"
+                            required />
+                        <div class="error alert-dismissible fade show error_msg" role="alert" *ngIf="simActivationForm.get('emailAddress').invalid && simActivationForm.get('emailAddress').touched">
+                            {{'SimInformation.emailError' | translate}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-12 nextBtn">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-12 padLft0 next_btn">
+                            <button class="font_size_1614  btnNext" [disabled]="!simActivationForm.valid" type="submit">
+                                {{'SimInformation.next' | translate}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Show below review block only when servie responds with a responce -->
+    <div *ngIf="showReview" class="reviewform">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="font_size_20 font_weight_bold col-md-12 col-12">
+                    <p class="borderBtm" *ngIf="!infocheck">
+                        {{'SimInformation.reveiewHead' | translate}} {{activateSimBlock.ChannelOrderID}}
+                    </p>
+                    <p class="borderBtm" *ngIf="infocheck">
+                        {{'SimInformation.reviewDone' | translate}}
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-12 ">
+                <div class="row  review_block">
+                    <div class="col-lg-6 col-md-12 col-12 plans" *ngFor="let simdetails of activateSimBlock.SimInfo">
+                        <div class="row">
+                            <div class="col-md-3 col-3">
+                              <em class="icon-smartphone"></em>
+                            </div>
+                            <div class="col-md-9 col-9">
+                                <p class="font_size_20 font_weight_bold">{{simdetails.OfferDesc}}</p>
+                                <div class="review_details">
+                                    <p class="font_size_1614 font_weight_bold greyTxt margin_bottom_0">
+                                        {{simdetails.LogicalResourceID | phoneNumberFormat}}</p>
+                                    <p class="font_size_1614 font_weight_normal greyTxt">
+                                        <span class="font_weight_bold">
+                                            {{'SimInformation.simCard' | translate}} : </span>{{simdetails.SimCardNumber
+                                        | simNumberFormat}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-12 margin_top_40 activateSim">
+                        <div class="col-md-12 col-12">
+                            <div class="activateSimbtn ">
+                                <button class="font_size_1614" (click)="activateSim()" [disabled]="!activateSimBtn.length">{{'SimInformation.activateBtn'
+                                    | translate}}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Show below success block only when servie responds with a responce of successfully submittion -->
+    <div *ngIf="successMsg" class="successMsgBlock">
+        <div class="successMsg">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row greenBorder">
+                        <div class="col-lg-1 col-md-2 col-sm-2 col-2">
+                            <span class="iconSucc">
+                                <em class="icon-tick"></em>
+                            </span>
+                        </div>
+                        <div class="col-lg-11 col-md-10 col-sm-10 col-10 display_flex align_center">
+                            <p class="margin_bottom_0 font_size_2016 font_weight_bold">{{'SimInformation.successMsg' |
+                                translate}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Show error only when servie responds with an error -->
+    <div *ngIf="errorMsg" class="errorMsgBlock">
+        <div class="errorMsg">
+            <div class="col-md-12 col-12">
+                <div class="row redBorder">
+                    <div class="col-md-1 col-2">
+                        <img class="img-fluid" alt="error" src="..\..\..\..\..\simactivation\assets\images\error.png">
+                    </div>
+                    <div class="col-md-11 col-10 display_flex align_center">
+                        <p class="margin_bottom_0 font_size_2016 font_weight_bold" *ngIf="!httpError">{{'SimInformation.errorMsg' |
+                            translate}}
+                        </p>
+                        <p class="margin_bottom_0 font_size_2016 font_weight_bold" *ngIf="httpError">{{httpError}}
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<!-- content for loader -->
+<div [class.loading]="loading" class="test">
+    <div class="loader" *ngIf="loading">
+        <img src="../simactivation/assets/images/progress-circle.gif" alt="loader circle">
+    </div>
+
+
+    <!--The content below is only a placeholder and can be replaced.-->
+
+    <app-header></app-header>
+
+  <div class="simActivationHome">
+    <router-outlet></router-outlet>
+  </div>
+
+    <app-footer></app-footer>
+
+</div>

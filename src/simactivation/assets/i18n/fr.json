@@ -1,0 +1,21 @@
+{
+    "SimInformation": {
+        "header1":"Mobile",
+        "header2":"Activez votre carte SIM",
+        "listPoint1" :"Introduisez les 13 premiers chiffres de votre nouvelle carte SIM (tout ce qui précède le \"B\").",
+        "listPoint2" :"Renseignez l'addresse e-mail utilisée lors de la commande.",
+        "listPoint3" :"Cliquez sur 'Continuer'. Vous recevrez un mail de confirmation dès que l'abonnement sera activé (délai maximum: 1 jour ouvrable).",
+        "mainTitle": "Les informations de votre commande",
+        "simNo" :"Les 13 chiffres de la carte SIM",
+        "simNoError" : " Veuillez introduire un numéro de carte SIM valide.",
+        "email" :"Adresse e-mail",
+        "emailError" :"Veuillez entrer une Adresse e-mail valide",
+        "next" :"Continuer",
+        "reveiewHead" :"Vérifiez votre commande",
+        "reviewDone" :"Résumé",
+        "simCard" :"Les 13 chiffres de la carte SIM",
+        "activateBtn" :"J'active ma carte SIM",
+        "successMsg" :"Félicitations! Votre demande est en cours.",
+        "errorMsg" :"Désolé, nous n'avons pas pu activer votre carte SIM. Pouvez-vous vérifier les informations ci-dessus?"
+    }
+}

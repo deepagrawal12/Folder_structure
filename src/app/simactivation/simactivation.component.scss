@@ -1,0 +1,313 @@
+@import "~src/styles.scss";
+
+.simInfoPage {
+  padding: 30px 0 50px;
+}
+
+.custom-counter ul {
+  margin-left: 9px;
+}
+
+.infoList {
+  padding-top: 50px;
+  width: 85%;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+  }
+  .custom-counter {
+    margin-left: 12px;
+    padding: 0 30px;
+    padding-right: 0;
+    list-style-type: none;
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0px;
+    }
+
+    .listinfo {
+      font-weight: bold;
+      padding: 0px 25px 50px 40px;
+      text-align: justify;
+      @media (min-width: 320px) and (max-width: 767px) {
+        padding: 0px 25px 50px 0px;
+      }
+    }
+
+    .list_count {
+      counter-increment: step-counter;
+    }
+
+    .listinfo::before {
+      margin-right: 5px;
+      // font-size: 80%;
+      background-color: $background_light_grey;
+      // color: white;
+      font-weight: bold;
+      padding: 6px 21px;
+      border-radius: 100%;
+      position: absolute;
+      margin-left: -68px;
+      margin-top: -8px;
+      font-size: 30px;
+      color: $color_black;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 20px;
+        margin-left: -56px;
+        margin-top: -15px;
+        padding: 13px 21px;
+        position: relative;
+        top: -40px;
+        left: 55%;
+      }
+    }
+    .sub_list {
+      list-style-type: disc;
+      padding: 3px 18px 32px 18px;
+      margin-top: -27px;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        padding: 0px 25px 33px 17px;
+        margin-top: -18px;
+        margin-left: -26px;
+      }
+    }
+    .list_count::before {
+      content: counter(step-counter);
+    }
+  }
+}
+.errorMsgBlock {
+  padding-bottom: 30px;
+}
+.errorMsg {
+  margin-top: 30px;
+  .redBorder {
+    border: 2px solid $error_red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.successMsgBlock {
+  padding-bottom: 30px;
+}
+.successMsg {
+  margin-top: 30px;
+
+  .greenBorder {
+    border: 2px solid $success_green;
+    padding: 12px 14px;
+    margin: -2px;
+    p {
+      color: $color_black;
+    }
+  }
+}
+
+.icon-tick {
+  background: #32c832;
+  padding: 2px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 42px;
+}
+
+.icon-smartphone {
+  padding: 15px;
+  border-radius: 100%;
+  background: #fff;
+  font-size: 70px;
+}
+
+// @import "~src/styles.scss";
+button {
+  padding: 7px 34px;
+  border-radius: 0px;
+  color: $color_white;
+  background-color: $brand-primary;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  &:disabled {
+    background-color: #999999;
+  }
+}
+
+.simmform {
+  background-color: $background_light_grey;
+  padding-top: 12px;
+  padding-bottom: 30px;
+  border: 1px solid $box-grey-color;
+  margin-top: 30px;
+
+  .borderBtm {
+    border-bottom: 1px solid $box-grey-color;
+    padding-bottom: 13px;
+  }
+
+  .form-group {
+    input {
+      border-radius: 0px;
+      &:focus {
+        box-shadow: none;
+      }
+      &:disabled {
+        background-color: #ffffff;
+      }
+    }
+    .error {
+      color: $error-red;
+      padding-top: 2px;
+    }
+  }
+
+  button {
+    padding: 7px 92px;
+  }
+  .grey {
+    background-color: $color_display_grey;
+  }
+}
+
+.btnNext {
+  letter-spacing: 1px;
+  // margin-left: 14px;
+}
+
+.simNumber,
+.emailAddress {
+  border: 2px solid #999;
+  @media (max-width: 767px) and (min-width: 320px) {
+    font-size: 14px;
+  }
+}
+
+.simNumber.ng-invalid.ng-touched,
+.emailAddress.ng-invalid.ng-touched {
+  border: 2px solid #cd3c14;
+}
+
+.reviewform {
+  background-color: $background_light_grey;
+  margin-top: 20px;
+  padding: 30px 12px 30px 12px;
+  border: 1px solid $box-grey-color;
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 10px 12px 30px 12px;
+  }
+
+  .review_block {
+    margin-top: 12px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-top: 8px;
+      .activateSim {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  .borderBtm {
+    border-bottom: 1px solid $box-grey-color;
+    padding-bottom: 13px;
+  }
+
+  .greyTxt {
+    color: $text_grey_color;
+  }
+}
+
+.simDetails {
+  height: 118px;
+  padding: 0 14px;
+  margin-top: 12px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.col-xl, .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg, .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md, .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm, .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col, .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .icon-smartphone {
+    font-size: 30px;
+  }
+  .simDetails {
+    height: auto;
+    margin-top: 0px;
+  }
+  .simDetails div {
+    max-width: 100%;
+  }
+
+  .plans {
+    margin-bottom: 18px;
+  }
+  .review_img {
+    margin-left: 10px;
+  }
+  .review_details {
+    margin-top: -10px;
+  }
+  .activateSimbtn {
+    text-align: center !important;
+  }
+
+  .next_btn {
+    text-align: center !important;
+    padding-top: 12px;
+  }
+
+  .error_msg {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .icon-tick {
+    font-size: 32px;
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 767px) {
+  .col-md-1 {
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  .col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-md-11 {
+    -ms-flex: 0 0 91.6666666666%;
+    flex: 0 0 91.6666666666%;
+    max-width: 91.6666666666%;
+  }
+}
+

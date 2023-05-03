@@ -1,0 +1,24 @@
+{
+    "SimInformation": {
+        "header1":"Mobile",
+        "header2":"SIM activation",
+        "listPoint1" :"Please fill below fields.You can find your sim card number on the letter your received with the sim. If you requested multiple sim cards, you only need to fill one of the cards. It doesn't matter which one.",
+        "listPoint2" :"Fill in the mail address on which you got your order confirmation. Click next.",
+        "listPoint3" :"An overview will appear of your requested subscription(s) . Click the activate to start the activation process for your card(s).",
+        "listPoint4" :"You will receive a confirmation email when the activation has been done. This will happen within one hour. (SLA TBC)",
+        "listPoint4.1" :"If you transfer your number from another operator, you can continue using the card of your current operator until you get an SMS that you can switch your sim card.",
+        "listPoint4.2" :"If you requested a new number, you can immediately put your sim in your phone. You will receive an sms as soon as your subscription is active.",
+        "mainTitle": "Your activation information",
+        "simNo" :"SIM card number",
+        "simNoError" : "This is not a correct SIM number",
+        "email" :"Email address",
+        "emailError" :"This is not a valid email address",
+        "next" :"Confirm",
+        "reveiewHead" :"Review your order",
+        "reviewDone" :"Overview",
+        "simCard" :"SIM card number",
+        "activateBtn" :"I activate my SIM card(s)",
+        "successMsg" :"Congratulations! Your request is being handled.",
+        "errorMsg" :"Sorry this SIM card couldn't be activated. Check your information above."       
+    }
+}

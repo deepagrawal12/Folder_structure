@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="activationInfo" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{info.content}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/information.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="errorMsg" datatype="html">
+        <source>Sorry this SIM card couldn&apos;t be activated. Check your information above.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/error/error.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="reviewTitle" datatype="html">
+        <source>Review your order 305939305939305939</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/review/review.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="koalaName" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{simdetails.name}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/review/review.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="koalPhone" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{simdetails.phoneNumber}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/review/review.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="koalasimcard" datatype="html">
+        <source>SIM card number:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/review/review.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="activatesim" datatype="html">
+        <source>I activate my SIM cards</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/review/review.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="InformationTitle" datatype="html">
+        <source>Your Information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/simform/simform.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="simCardNumber" datatype="html">
+        <source>SIM card number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/simform/simform.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Email" datatype="html">
+        <source>Email Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/simform/simform.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="NextButton" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/simform/simform.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="successMsg" datatype="html">
+        <source>Congratulations! Your SIM cards have been activated.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/activationform/information/success/success.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

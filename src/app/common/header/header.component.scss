@@ -1,0 +1,37 @@
+.offerSection {
+  background: #000;
+  padding: 22px;
+}
+
+.color_white {
+  color: #fff !important;
+}
+
+.line_height {
+  line-height: 29px;
+}
+.cust_name {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .offerSection {
+    min-height: 110px;
+  }
+  .border_line {
+    border-top: 1px solid #333;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 766px) {
+  .offerSection {
+    padding: 35px 0 0 10px;
+    .cust_name{
+      font-size: 30px;
+      margin-top: 8px;
+    }
+  }
+  .border_line {
+    border-top: 1px solid #333;
+  }
+}

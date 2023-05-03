@@ -1,0 +1,607 @@
+<?xml version='1.0'?>
+<testExecutions version='1'>
+    <file path='src/app/pipe/sim-number-format.pipe.spec.ts'>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='2'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='0'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='1'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='0'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='0'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='1'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='1'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='1'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='1'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='0'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='1'/>
+        <testCase name='SimNumberFormatPipe transforms "6666666666666" to "6666 6666 6666 6"' duration='1'/>
+        <testCase name='SimNumberFormatPipe create an instance' duration='0'/>
+    </file>
+    <file path='src/app/services/sim-activation.service.spec.ts'>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='21'/>
+        <testCase name='SimActivationService should be created' duration='6'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='6'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='5'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='2'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='1'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='3'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='4'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='2'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='4'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='5'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='3'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='4'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='4'/>
+        <testCase name='SimActivationService should be created' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='2'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='4'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='3'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='3'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='6'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='2'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='6'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='2'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='2'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService should handle an error on catchError...' duration='3'/>
+        <testCase name='SimActivationService #simActivation() should make a POST request' duration='3'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService #simActivationMock() should make a GET request' duration='1'/>
+        <testCase name='SimActivationService should be created' duration='1'/>
+        <testCase name='SimActivationService should be created' duration='3'/>
+    </file>
+    <file path='src/app/directive/sim-number.directive.spec.ts'>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='96'/>
+        <testCase name='SimNumberDirective should create an instance' duration='10'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='9'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='7'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='8'/>
+        <testCase name='SimNumberDirective should create an instance' duration='11'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='9'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='7'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='8'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='6'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='14'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='9'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='8'/>
+        <testCase name='SimNumberDirective should create an instance' duration='8'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='13'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='10'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='9'/>
+        <testCase name='SimNumberDirective should create an instance' duration='5'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='9'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='8'/>
+        <testCase name='SimNumberDirective should create an instance' duration='112'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='14'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='17'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='8'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='25'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='82'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='11'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='8'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='14'/>
+        <testCase name='SimNumberDirective should create an instance' duration='13'/>
+        <testCase name='SimNumberDirective should create an instance' duration='68'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='25'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='11'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='29'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='8'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='53'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='11'/>
+        <testCase name='SimNumberDirective should create an instance' duration='7'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='7'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='11'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='129'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='30'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='12'/>
+        <testCase name='SimNumberDirective should create an instance' duration='8'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='13'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='64'/>
+        <testCase name='SimNumberDirective should create an instance' duration='9'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='8'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='11'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='8'/>
+        <testCase name='SimNumberDirective should log event and call keydownBackspace() when keyEvent' duration='14'/>
+        <testCase name='SimNumberDirective keydownBackspace() should call' duration='8'/>
+        <testCase name='SimNumberDirective should log event and call onModelChange() when model changes are detected' duration='10'/>
+        <testCase name='SimNumberDirective onModelChange() should call' duration='9'/>
+        <testCase name='SimNumberDirective should create an instance' duration='12'/>
+    </file>
+    <file path='src/app/common/header/header.component.spec.ts'>
+        <testCase name='HeaderComponent should create' duration='11'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='4'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='11'/>
+        <testCase name='HeaderComponent should create' duration='4'/>
+        <testCase name='HeaderComponent should create' duration='14'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='5'/>
+        <testCase name='HeaderComponent should create' duration='5'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='3'/>
+        <testCase name='HeaderComponent should create' duration='10'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='4'/>
+        <testCase name='HeaderComponent should create' duration='14'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='4'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='11'/>
+        <testCase name='HeaderComponent should create' duration='4'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='8'/>
+        <testCase name='HeaderComponent should create' duration='2'/>
+        <testCase name='HeaderComponent should create' duration='13'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='8'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='17'/>
+        <testCase name='HeaderComponent should create' duration='4'/>
+        <testCase name='HeaderComponent should create' duration='8'/>
+        <testCase name='HeaderComponent currentUrl variable should be String Data type' duration='6'/>
+    </file>
+    <file path='src/app/pipe/phone-number-format.pipe.spec.ts'>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='1'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='1'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='1'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='1'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='1'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='0'/>
+        <testCase name='PhoneNumberFormatPipe transforms "0498233449" to "0233 44 9"' duration='1'/>
+        <testCase name='PhoneNumberFormatPipe create an instance' duration='1'/>
+    </file>
+    <file path='src/app/common/page-not-found/page-not-found.component.spec.ts'>
+        <testCase name='PageNotFoundComponent should create' duration='4'/>
+        <testCase name='PageNotFoundComponent should create' duration='4'/>
+        <testCase name='PageNotFoundComponent should create' duration='6'/>
+        <testCase name='PageNotFoundComponent should create' duration='5'/>
+        <testCase name='PageNotFoundComponent should create' duration='6'/>
+        <testCase name='PageNotFoundComponent should create' duration='4'/>
+        <testCase name='PageNotFoundComponent should create' duration='4'/>
+        <testCase name='PageNotFoundComponent should create' duration='5'/>
+        <testCase name='PageNotFoundComponent should create' duration='4'/>
+        <testCase name='PageNotFoundComponent should create' duration='3'/>
+        <testCase name='PageNotFoundComponent should create' duration='6'/>
+    </file>
+    <file path='src/app/common/access-denied/access-denied.component.spec.ts'>
+        <testCase name='AccessDeniedComponent should create' duration='4'/>
+        <testCase name='AccessDeniedComponent should create' duration='5'/>
+        <testCase name='AccessDeniedComponent should create' duration='6'/>
+        <testCase name='AccessDeniedComponent should create' duration='5'/>
+        <testCase name='AccessDeniedComponent should create' duration='6'/>
+        <testCase name='AccessDeniedComponent should create' duration='4'/>
+        <testCase name='AccessDeniedComponent should create' duration='3'/>
+        <testCase name='AccessDeniedComponent should create' duration='9'/>
+        <testCase name='AccessDeniedComponent should create' duration='7'/>
+        <testCase name='AccessDeniedComponent should create' duration='5'/>
+        <testCase name='AccessDeniedComponent should create' duration='3'/>
+    </file>
+    <file path='src/app/services/sim-info.service.spec.ts'>
+        <testCase name='SimInfoService should be created' duration='4'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='4'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='2'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='4'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='10'/>
+        <testCase name='SimInfoService should be created' duration='4'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='24'/>
+        <testCase name='SimInfoService should be created' duration='5'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='5'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='6'/>
+        <testCase name='SimInfoService should be created' duration='4'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='2'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='2'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='5'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='4'/>
+        <testCase name='SimInfoService should be created' duration='1'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='7'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='4'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='8'/>
+        <testCase name='SimInfoService should be created' duration='5'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='5'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='11'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='2'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='4'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='4'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='6'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='5'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='7'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='2'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='3'/>
+        <testCase name='SimInfoService should be created' duration='5'/>
+        <testCase name='SimInfoService should handle an error on catchError...' duration='4'/>
+        <testCase name='SimInfoService #getSimInfo() should make a GET request' duration='2'/>
+        <testCase name='SimInfoService should be created' duration='2'/>
+        <testCase name='SimInfoService #getSimInfoMock() should make a GET request' duration='2'/>
+    </file>
+    <file path='src/app/common/footer/footer.component.spec.ts'>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='5'/>
+        <testCase name='FooterComponent should create' duration='2'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='5'/>
+        <testCase name='FooterComponent should create' duration='2'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='4'/>
+        <testCase name='FooterComponent should create' duration='2'/>
+        <testCase name='FooterComponent should create' duration='5'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='2'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='7'/>
+        <testCase name='FooterComponent should create' duration='4'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='8'/>
+        <testCase name='FooterComponent should create' duration='3'/>
+        <testCase name='FooterComponent should create' duration='7'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='7'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='24'/>
+        <testCase name='FooterComponent should create' duration='4'/>
+        <testCase name='FooterComponent should create' duration='8'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='5'/>
+        <testCase name='FooterComponent should create' duration='22'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='6'/>
+        <testCase name='FooterComponent langauge variable should be String Data type' duration='6'/>
+        <testCase name='FooterComponent should create' duration='4'/>
+    </file>
+    <file path='src/app/app.component.spec.ts'>
+        <testCase name='AppComponent should be loading on a navigation start' duration='8'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='3'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='3'/>
+        <testCase name='AppComponent should create the app' duration='2'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='7'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='4'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='4'/>
+        <testCase name='AppComponent should create the app' duration='3'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='9'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='4'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='4'/>
+        <testCase name='AppComponent should create the app' duration='5'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='9'/>
+        <testCase name='AppComponent should create the app' duration='2'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='3'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='3'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='42'/>
+        <testCase name='AppComponent should create the app' duration='6'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='5'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='4'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='9'/>
+        <testCase name='AppComponent should create the app' duration='4'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='3'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='3'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='59'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='7'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='7'/>
+        <testCase name='AppComponent should create the app' duration='4'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='14'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='4'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='6'/>
+        <testCase name='AppComponent should create the app' duration='3'/>
+        <testCase name='AppComponent should create the app' duration='14'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='7'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='6'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='4'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='8'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='3'/>
+        <testCase name='AppComponent should create the app' duration='3'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='2'/>
+        <testCase name='AppComponent should have as title &apos;Activation Webpage&apos;' duration='9'/>
+        <testCase name='AppComponent should be loading on a navigation end' duration='3'/>
+        <testCase name='AppComponent should create the app' duration='4'/>
+        <testCase name='AppComponent should be loading on a navigation start' duration='3'/>
+    </file>
+    <file path='src/app/simactivation/simactivation.component.spec.ts'>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='27'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='12'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='12'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='15'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='14'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='17'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='18'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='15'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='13'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='14'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='13'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='21'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='13'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='12'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='12'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='18'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='12'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='19'/>
+        <testCase name='SimactivationComponent should create' duration='12'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='53'/>
+        <testCase name='SimactivationComponent should create' duration='10'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='12'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='10'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='9'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='10'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='11'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='12'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='12'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='13'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='14'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='15'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='7'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='11'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='16'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='11'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='8'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='13'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='150'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='15'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='15'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='9'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='11'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='12'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='8'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='7'/>
+        <testCase name='SimactivationComponent should create' duration='7'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='9'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='10'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='8'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='10'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='10'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='9'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='12'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='9'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='80'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='12'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='11'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='21'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='14'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='14'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='6'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='9'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='7'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='13'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='9'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='7'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='12'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='9'/>
+        <testCase name='SimactivationComponent should create' duration='7'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='9'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='66'>
+            <failure message='TestCase failed'>Error: &lt;spyOn> : getSimInfo has already been spied upon
+Usage: spyOn(&lt;object>, &lt;methodName>)
+Error: &lt;spyOn> : getSimInfo has already been spied upon
+Usage: spyOn(&lt;object>, &lt;methodName>)
+    at &lt;Jasmine>
+    at UserContext.apply (src/app/simactivation/simactivation.component.spec.ts:349:5)
+    at UserContext.fakeAsyncFn (node_modules/zone.js/dist/zone-testing.js:2110:34)
+    at _ZoneDelegate.invoke (node_modules/zone.js/dist/zone.js:409:1)
+    at ProxyZoneSpec.onInvoke (node_modules/zone.js/dist/zone-testing.js:303:43)
+    at _ZoneDelegate.push.3484._ZoneDelegate.invoke (node_modules/zone.js/dist/zone.js:408:1)
+    at Zone.run (node_modules/zone.js/dist/zone.js:169:1)
+    at runInTestZone (node_modules/zone.js/dist/zone-testing.js:598:38)
+</failure>
+        </testCase>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='7'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='7'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='10'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='11'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='14'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='12'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='12'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='8'/>
+        <testCase name='SimactivationComponent should create' duration='10'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='13'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='8'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='17'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='9'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='11'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='16'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='9'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='70'>
+            <failure message='TestCase failed'>Error: &lt;spyOn> : getSimInfo has already been spied upon
+Usage: spyOn(&lt;object>, &lt;methodName>)
+Error: &lt;spyOn> : getSimInfo has already been spied upon
+Usage: spyOn(&lt;object>, &lt;methodName>)
+    at &lt;Jasmine>
+    at UserContext.apply (src/app/simactivation/simactivation.component.spec.ts:349:5)
+    at UserContext.fakeAsyncFn (node_modules/zone.js/dist/zone-testing.js:2110:34)
+    at _ZoneDelegate.invoke (node_modules/zone.js/dist/zone.js:409:1)
+    at ProxyZoneSpec.onInvoke (node_modules/zone.js/dist/zone-testing.js:303:43)
+    at _ZoneDelegate.push.3484._ZoneDelegate.invoke (node_modules/zone.js/dist/zone.js:408:1)
+    at Zone.run (node_modules/zone.js/dist/zone.js:169:1)
+    at runInTestZone (node_modules/zone.js/dist/zone-testing.js:598:38)
+</failure>
+        </testCase>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='14'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='10'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='12'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='11'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='11'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='14'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='12'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='12'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='17'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='10'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='10'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='11'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='11'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='11'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='6'/>
+        <testCase name='SimactivationComponent should create' duration='9'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='9'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='10'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='24'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='12'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='11'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='7'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='7'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='11'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='9'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='10'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='20'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='8'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='11'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='12'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='8'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='14'/>
+        <testCase name='SimactivationComponent should create' duration='13'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='12'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='14'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='10'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='11'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='11'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='11'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='7'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='15'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='7'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='9'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='9'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='7'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='11'/>
+        <testCase name='SimactivationComponent should create' duration='7'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='7'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='11'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='6'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='6'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='10'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='10'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='11'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='14'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='11'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='25'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='15'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='11'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='9'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='9'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='8'/>
+        <testCase name='SimactivationComponent should create' duration='9'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='12'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='7'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='9'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='12'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='10'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='12'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='6'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='13'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='11'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='12'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='10'/>
+        <testCase name='SimactivationComponent should create' duration='6'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='8'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='9'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='11'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='13'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='9'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='10'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='11'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='5'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='14'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='7'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='9'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='182'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='11'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='10'/>
+        <testCase name='SimactivationComponent #getSimInfoMock should return expected data' duration='20'/>
+        <testCase name='SimactivationComponent Check EMAIL ADDRESS Value Before Entering Some Value And Validation' duration='12'/>
+        <testCase name='SimactivationComponent should call activateSim() when button click' duration='13'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='10'/>
+        <testCase name='SimactivationComponent simActivation should make a GET request' duration='12'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='11'/>
+        <testCase name='SimactivationComponent simActivationMock should make a GET request' duration='9'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='9'/>
+        <testCase name='SimactivationComponent should call onSubmit() method on form submit' duration='18'/>
+        <testCase name='SimactivationComponent should use SimInfoService' duration='7'/>
+        <testCase name='SimactivationComponent #getSimInfo should return expected data' duration='24'/>
+        <testCase name='SimactivationComponent should create' duration='9'/>
+        <testCase name='SimactivationComponent activateSim should call simActivation() in case of error' duration='11'/>
+        <testCase name='SimactivationComponent SimInfoService should make a GET request' duration='10'/>
+        <testCase name='SimactivationComponent Check Initial Form Values For SIM ACTIVATION FORM GROUP' duration='11'/>
+        <testCase name='SimactivationComponent Check SIM NUMBER Value Before Entering Some Value And Validation' duration='9'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='10'/>
+        <testCase name='SimactivationComponent should call initializeForm() on init method' duration='8'/>
+        <testCase name='SimactivationComponent Test a Form Group ELEMENT count' duration='6'/>
+        <testCase name='SimactivationComponent should able to validateActivationDetails' duration='8'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='7'/>
+        <testCase name='SimactivationComponent should call validateActivationDetails() when onSubmit() is called' duration='10'/>
+        <testCase name='SimactivationComponent validateActivationDetails should call getSimInfo() in case of error' duration='11'/>
+    </file>
+</testExecutions>

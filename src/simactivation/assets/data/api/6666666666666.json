@@ -1,0 +1,16 @@
+{
+    "ChannelOrderID": "305939305939305939",
+    "EmailID": "testUser@hotmail.com",
+    "SimInfo": [
+        {
+            "SigmaProductID": "Koala",
+            "LogicalresourceID": "0498555555",
+            "SimCardNumber": "6666666666666"
+        },
+        {
+            "SigmaProductID": "Eagle",
+            "LogicalresourceID": "0498233449",
+            "SimCardNumber": "7777777777777"
+        }
+    ]
+}

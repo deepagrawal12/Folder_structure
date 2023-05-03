@@ -1,0 +1,21 @@
+{
+    "SimInformation": {
+        "header1":"Mobiel",
+        "header2":"Je simkaart activeren",
+        "listPoint1" : "Vul de eerste 13 cijfers in van de simkaart die je ontvangen hebt (alles wat voor de B komt).",
+        "listPoint2" : "Vul het e-mailadres in gebruikt tijdens de bestelling.",
+        "listPoint3" : "Druk op bevestigen. Zodra je abonnement geactiveerd is, ontvang je een mail ter bevestiging (maximum 1 werkdag).",
+        "mainTitle": "Jouw bestelinformatie ",
+        "simNo" : "13 cijfers nieuwe simkaart",
+        "simNoError" : "Gelieve een geldig simkaartnummer in te vullen",
+        "email" : "E-mailadres gebruikt bij bestelling",
+        "emailError" : "Gelieve een geldig emailadres in te vullen ",
+        "next" : "Bevestigen",
+        "reveiewHead" : "Controleer je bestelling ",
+        "reviewDone" : "Overzicht",
+        "simCard" : "13 cijfers nieuwe simkaart",
+        "activateBtn" : "Ik activeer mijn simkaart",
+        "successMsg" : "Proficiat! Je aanvraag is in behandeling.",
+        "errorMsg" : "Sorry, we konden je simkaart niet activeren. Kan  je bovenstaande informatie nog even nakijken?"
+    }
+}

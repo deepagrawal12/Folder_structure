@@ -1,0 +1,292 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import "themes/colors.scss";
+@import "./simactivation/assets/css/orange-imagine.scss";
+
+@font-face {
+  font-family: "Helvetica-Neue-Regular";
+  src: local("HelvNeue35_W1G"), url("/simactivation/assets/fonts/WOFF2/HelvNeue35_W1G.woff") format("woff"),
+    url("/simactivation/assets/fonts/TTF/HelvNeue35_W1G.ttf") format("truetype"),
+    url("/simactivation/assets/fonts/EOT/HelvNeue35_W1G.eot") format("eot");
+}
+
+@font-face {
+  font-family: "HelvNeue45";
+  src: local("HelvNeue45_W1GHelvNeue45_W1G"), url("/simactivation/assets/fonts/WOFF2/HelvNeue45_W1G.woff") format("woff"),
+    url("/simactivation/assets/fonts/TTF/HelvNeue45_W1G.ttf") format("truetype"),
+    url("/simactivation/assets/fonts/EOT/HelvNeue35_W1G.eot") format("eot");
+}
+
+@font-face {
+  font-family: "HelvNeue55";
+  src: local("HelvNeue55_W1G"), url("/simactivation/assets/fonts/WOFF2/HelvNeue55_W1G.woff") format("woff"),
+    url("/simactivation/assets/fonts/TTF/HelvNeue55_W1G.ttf") format("truetype"),
+    url("/simactivation/assets/fonts/EOT/HelvNeue35_W1G.eot") format("eot");
+}
+
+@font-face {
+  font-family: "HelvNeue65";
+  src: local("HelvNeue65_W1G"), url("/simactivation/assets/fonts/WOFF2/HelvNeue65_W1G.woff") format("woff"),
+    url("/simactivation/assets/fonts/TTF/HelvNeue65_W1G.ttf") format("truetype"),
+    url("/simactivation/assets/fonts/EOT/HelvNeue65_W1G.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Bold";
+  src: url("/simactivation/assets/fonts/EOT/HelvNeue75_W1G.eot?#iefix");
+  src: url("/simactivation/assets/fonts/EOT/HelvNeue75_W1G.eot?#iefix") format("eot"),
+    url("/simactivation/assets/fonts/WOFF2/HelvNeue75_W1G.woff2") format("woff2"),
+    url("/simactivation/assets/fonts/WOFF/HelvNeue75_W1G.woff") format("woff"),
+    url("/simactivation/assets/fonts/TTF/HelvNeue75_W1G.ttf") format("truetype"),
+    url("/simactivation/assets/fonts/SVG/HelvNeue75_W1G.svg") format("svg");
+}
+
+$font-stack: "Helvetica-Neue-Bold";
+$primary-color: #000;
+$orange-color: #ff7900;
+$yellow-color: #ffd200;
+$grey-color: #cccccc;
+$black-color: #000000;
+$h1-size: 250%;
+$mobile-h1-size: 188%;
+$h2-size: 188%;
+$brand-primary: #ff7900;
+$brand-primary-hover: #000000;
+$blue-color: #4ab4e6;
+$color_display_grey: #999999;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Helvetica-Neue-Bold", sans-serif;
+  color: $primary-color;
+  font-size: 16px;
+  background: #fff;
+}
+
+h1 {
+  font-size: $h1-size;
+  color: #fff;
+}
+
+h2 {
+  font-size: $h2-size;
+}
+
+.textSize {
+  font-size: 16px;
+}
+
+.orange {
+  color: $orange-color;
+}
+
+.bg_orange {
+  background-color: $orange-color;
+}
+
+.yellow {
+  color: $yellow-color;
+}
+
+.bg_yellow {
+  background-color: $yellow-color;
+}
+.bg_black {
+  background-color: $black-color;
+}
+.grey {
+  color: $grey-color;
+}
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.save {
+  padding-left: 10px;
+  margin: 43px 0;
+  font-size: 20px;
+  font-family: $font-stack;
+}
+
+.btn-primary {
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+  border-radius: 0;
+}
+.btn-primary:hover {
+  background-color: $brand-primary-hover;
+  border-color: $brand-primary-hover;
+}
+.btn-primary:focus {
+  box-shadow: 0 0 0 0;
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.imageSection {
+  text-align: center;
+}
+
+.mainSection {
+  padding-top: 0;
+}
+
+// orange-be-footer,
+#orangeFooter {
+  margin-top: 40px;
+  display: block;
+}
+.offerSection {
+  padding-top: 0;
+}
+.offerSection.stickyon {
+  padding-top: 101px;
+}
+.display_block {
+  display: inline-block;
+}
+.align_left {
+  text-align: left;
+}
+.align_right {
+  text-align: right;
+}
+.font_weight_bold {
+  font-weight: bold;
+}
+.font_weight_normal {
+  font-weight: normal;
+}
+.font_size_40 {
+  font-size: 40px;
+}
+.font_size_30 {
+  font-size: 30px;
+}
+.font_size_34 {
+  font-size: 34px;
+}
+.font_size_20 {
+  font-size: 20px;
+}
+.font_size_12 {
+  font-size: 12px;
+}
+.font_size_24 {
+  font-size: 24px;
+}
+.font_size_16 {
+  font-size: 16px;
+}
+.font_size_14 {
+  font-size: 14px;
+}
+.padding0 {
+  padding: 0;
+}
+.padTop15px {
+  padding-top: 15px;
+}
+.padLft0 {
+  padding-left: 0px;
+}
+.padBtm0 {
+  padding-bottom: 0px;
+}
+.font_size_3024 {
+  font-size: 30px;
+}
+.font_size_1614 {
+  font-size: 16px;
+}
+.font_size_2016 {
+  font-size: 20px;
+}
+.font_size_2014 {
+  font-size: 20px;
+}
+.text_align_right {
+  text-align: right;
+}
+.margin_top_40 {
+  margin-top: 40px;
+}
+.margin_bottom_0 {
+  margin-bottom: 0px;
+}
+.display_flex {
+  display: flex;
+}
+.align_center {
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: $mobile-h1-size;
+  }
+  .save {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .offerSection.stickyon {
+    margin-top: 49px;
+  }
+  .font_size_3024 {
+    font-size: 24px;
+  }
+  .font_size_1614 {
+    font-size: 14px;
+  }
+  .font_size_2016 {
+    font-size: 16px;
+  }
+  .font_size_2014 {
+    font-size: 14px;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .offerSection.stickyon {
+    margin-top: 49px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  // orange-be-header .b2c-global-header-container .b2c-global-header-inner-wrapper,
+  // orange-be-footer .b2c-global-footer-container .b2c-global-footer-inner-wrapper,
+  #orangeHeader .b2c-global-header-container .b2c-global-header-inner-wrapper,
+  #orangeHeader .b2c-global-footer-container .b2c-global-footer-inner-wrapper {
+    max-width: 1140px;
+  }
+}
+
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.8;
+  top: 0;
+  z-index: 9999;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+}

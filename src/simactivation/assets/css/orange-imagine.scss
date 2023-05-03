@@ -1,0 +1,121 @@
+$font_family: 'orange-imagine';
+
+@font-face {
+  font-family: $font_family;
+  src: url('/simactivation/assets/fonts/orange/orange-imagine.eot?17616281');
+  src: url('/simactivation/assets/fonts/orange/orange-imagine.eot?17616281#iefix') format('embedded-opentype'),
+       url('/simactivation/assets/fonts/orange/orange-imagine.woff2?17616281') format('woff2'),
+       url('/simactivation/assets/fonts/orange/orange-imagine.woff?17616281') format('woff'),
+       url('/simactivation/assets/fonts/orange/orange-imagine.ttf?17616281') format('truetype'),
+       url('/simactivation/assets/fonts/orange/orange-imagine.svg?17616281#orange-imagine') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'orange-imagine';
+    src: url('../font/orange-imagine.svg?5902435#orange-imagine') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: $font_family;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-ad:before { content: '\e800'; } /* '' */
+.icon-advisor:before { content: '\e801'; } /* '' */
+.icon-assistance:before { content: '\e802'; } /* '' */
+.icon-avatar:before { content: '\e803'; } /* '' */
+.icon-basket:before { content: '\e804'; } /* '' */
+.icon-call-center:before { content: '\e805'; } /* '' */
+.icon-call:before { content: '\e806'; } /* '' */
+.icon-idea:before { content: '\e807'; } /* '' */
+.icon-cross:before { content: '\e808'; } /* '' */
+.icon-flybox:before { content: '\e809'; } /* '' */
+.icon-delivery:before { content: '\e80a'; } /* '' */
+.icon-filter:before { content: '\e80b'; } /* '' */
+.icon-keypad:before { content: '\e80c'; } /* '' */
+.icon-laptop:before { content: '\e80d'; } /* '' */
+.icon-network:before { content: '\e80e'; } /* '' */
+.icon-pin:before { content: '\e80f'; } /* '' */
+.icon-card:before { content: '\e810'; } /* '' */
+.icon-power:before { content: '\e811'; } /* '' */
+.icon-repair:before { content: '\e812'; } /* '' */
+.icon-return:before { content: '\e813'; } /* '' */
+.icon-search:before { content: '\e814'; } /* '' */
+.icon-sim:before { content: '\e815'; } /* '' */
+.icon-smartphone:before { content: '\e816'; } /* '' */
+.icon-trash:before { content: '\e817'; } /* '' */
+.icon-tv:before { content: '\e818'; } /* '' */
+.icon-warning:before { content: '\e819'; } /* '' */
+.icon-wifi:before { content: '\e81a'; } /* '' */
+.icon-right-open:before { content: '\e81b'; } /* '' */
+.icon-left-open:before { content: '\e81c'; } /* '' */
+.icon-down-open:before { content: '\e81d'; } /* '' */
+.icon-up-open:before { content: '\e81e'; } /* '' */
+.icon-mail:before { content: '\e81f'; } /* '' */
+.icon-chat-1:before { content: '\e820'; } /* '' */
+.icon-tablet:before { content: '\e821'; } /* '' */
+.icon-reload:before { content: '\e822'; } /* '' */
+.icon-mobile_setup:before { content: '\e823'; } /* '' */
+.icon-chat:before { content: '\e824'; } /* '' */
+.icon-orange_experts:before { content: '\e825'; } /* '' */
+.icon-add-circle:before { content: '\e826'; } /* '' */
+.icon-messaging:before { content: '\e827'; } /* '' */
+.icon-add:before { content: '\e828'; } /* '' */
+.icon-info:before { content: '\e829'; } /* '' */
+.icon-international:before { content: '\e82a'; } /* '' */
+.icon-coupon:before { content: '\e82b'; } /* '' */
+.icon-tick:before { content: '\e82c'; } /* '' */
+.icon-store-locator:before { content: '\e82d'; } /* '' */
+.icon-cloud:before { content: '\e82e'; } /* '' */
+.icon-pencil:before { content: '\e82f'; } /* '' */
+.icon-coyote:before { content: '\e830'; } /* '' */
+.icon-cheetah:before { content: '\e831'; } /* '' */
+.icon-dolphin:before { content: '\e832'; } /* '' */
+.icon-eagle:before { content: '\e833'; } /* '' */
+.icon-hummingbird:before { content: '\e834'; } /* '' */
+.icon-koala:before { content: '\e835'; } /* '' */
+.icon-panther:before { content: '\e836'; } /* '' */
+.icon-message-alert:before { content: '\e837'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-youtube:before { content: '\f16a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */

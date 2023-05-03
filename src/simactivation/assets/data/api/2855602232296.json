@@ -1,0 +1,16 @@
+{
+    "ChannelOrderID": "ABC12343",
+    "EmailID": "abc@gmail.com",
+    "SimInfo": [
+        {
+            "SigmaProductID": "Test",
+            "LogicalresourceID": "0498/55,55,55",
+            "SimCardNumber": "03450526987459666"
+        },
+        {
+            "SigmaProductID": "Data",
+            "LogicalresourceID": "0498/23,34,49",
+            "SimCardNumber": "09898989898900000"
+        }
+    ]
+}

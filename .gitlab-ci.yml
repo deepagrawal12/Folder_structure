@@ -1,0 +1,16 @@
+variables:
+    #docker swarm
+    CI_PORT: 59010
+    CI_NETWORK: 'dtp'
+    CI_REGISTRY_IMAGE: 'dtr.prod.priv.orange.be/dtp/simactivationui'
+    #ci/cd project branch
+    GITLAB_SCRIPTS: 'feature-nodejs-cicd'
+    #node version
+    NODE_VERSION: 'node:16.15.1'
+
+include:
+  - project: 'digital-enablers1/digitalservices/gitlab-scripts'
+    ref: 'feature-nodejs-cicd'
+    file:
+      ## CI/CD pipeline
+      - '/gitlab/.gitlab-pipeline-template-nodejs.yml'
